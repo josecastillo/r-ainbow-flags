@@ -1,5 +1,11 @@
-Instructions for LGBT-Themed Flair
-==================================
+LGBT-Themed Flair for Reddit communities
+========================================
+
+This project contains 15 flags and the CSS necessary to implement them 
+as flair for a subreddit, as we have done over at [/r/ainbow](http://www.reddit.com/r/ainbow/).
+
+Instructions
+------------
 
 Steps 1-2 will happen on this page: 
 http://www.reddit.com/r/yoursubreddit/about/stylesheet
@@ -15,13 +21,17 @@ http://www.reddit.com/r/yoursubreddit/about/flair/
    Templates" tab. There are 16 CSS classes to enter by default; all 
    will have an empty "flair text" box, and "user can edit?" unchecked. 
    You can use any order, and that will be the order they appear in the 
-   sidebar flair picker.
+   sidebar flair picker. The class names are listed below. 
 4. (optional) Check off the "allow users to assign their own flair" box
    atop the page if you want people to be able to select their own flags. 
    
 Congratulations, you're done!
    
-For reference, This is /r/ainbow's order of flair templates: 
+CSS Class Names
+---------------
+
+These are the CSS classes you will add to the flair template page. For 
+reference, this is /r/ainbow's order as of March 2012: 
 
  * ainbow
  * trans
