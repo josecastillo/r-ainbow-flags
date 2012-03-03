@@ -1,10 +1,16 @@
-Instructions for LGBT-Themed Flair
-==================================
+LGBT-Themed Flair for Reddit communities
+========================================
+
+This project contains 15 flags and the CSS necessary to implement them 
+as flair for a subreddit, as we have done over at [/r/ainbow](http://www.reddit.com/r/ainbow/).
+
+Instructions
+------------
 
 Steps 1-2 will happen on this page: 
 http://www.reddit.com/r/yoursubreddit/about/stylesheet
 
-Step 3 will happen on this page: 
+Steps 3-4 will happen on this page: 
 http://www.reddit.com/r/yoursubreddit/about/flair/
 
 1. Under the "images" section, upload each of the PNG's in this folder. 
@@ -15,11 +21,17 @@ http://www.reddit.com/r/yoursubreddit/about/flair/
    Templates" tab. There are 16 CSS classes to enter by default; all 
    will have an empty "flair text" box, and "user can edit?" unchecked. 
    You can use any order, and that will be the order they appear in the 
-   sidebar flair picker.
-4. Check off the "allow users to assign their own flair" box atop the
-   page. Congratulations, you're done!
+   sidebar flair picker. The class names are listed below. 
+4. (optional) Check off the "allow users to assign their own flair" box
+   atop the page if you want people to be able to select their own flags. 
    
-This is /r/ainbow's order: 
+Congratulations, you're done!
+   
+CSS Class Names
+---------------
+
+These are the CSS classes you will add to the flair template page. For 
+reference, this is /r/ainbow's order as of March 2012: 
 
  * ainbow
  * trans
@@ -46,5 +58,7 @@ into a second column. The CSS class names are invisible to the end user.
 
 Also, our implementation is lazy and doesn't support text + flags, it's 
 just one or the other. As such, enabling "user can edit?" is discouraged.
+
+Blended flags were designed by reddit user WTFcannuck; thanks so much! 
 
 If you have any questions or issues, message joeycastillo on reddit. 
