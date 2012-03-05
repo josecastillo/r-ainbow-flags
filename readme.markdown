@@ -56,8 +56,9 @@ Notes
 "None" at position 8 looks good, as it puts all the blended flags
 into a second column. The CSS class names are invisible to the end user. 
 
-Also, our implementation is lazy and doesn't support text + flags, it's 
-just one or the other. As such, enabling "user can edit?" is discouraged.
+Thanks to kkress, the flair now supports hover text! If you want to add 
+an explanation of the flag or custom text alongside the flag, put it
+in the "Flair Text" box. This is entirely optional. 
 
 Blended flags were designed by reddit user WTFcannuck; thanks so much! 
 
