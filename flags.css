@@ -80,6 +80,18 @@ span.flair-genderqueer-pan { background:#DDD url(%%gq-pan%%) no-repeat left top 
 span.flair-genderqueer-bi { background:#DDD url(%%gq-bi%%) no-repeat left top !important; }
 span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top !important; }
 
+span.flair
+{
+   text-indent: -30000px;
+}
+
+span.flair:hover
+{ 
+   text-indent: 22px;
+   width: auto;
+}
+
+
 /* This flair style should be entered as "none" (no quotes) in the flair
  * template screen. It's to let people unset their flag. */
 .flair-none { display:none; }
