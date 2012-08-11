@@ -56,9 +56,25 @@ Notes
 "None" at position 8 looks good, as it puts all the blended flags
 into a second column. The CSS class names are invisible to the end user. 
 
-Thanks to kkress, the flair now supports hover text! If you want to add 
-an explanation of the flag or custom text alongside the flag, put it
-in the "Flair Text" box. This is entirely optional. 
+~~Thanks to kkress, the flair now supports hover text!~~ After extensive 
+testing, we've made the judgment that showing text alongside the flag at
+all times is preferable to hover text.  If you want to add an explanation 
+of the flag or custom text alongside the flag, put it in the "Flair Text" 
+box. This is entirely optional. If you want the old hover text style, 
+replace the span.flair rule with the following: 
+
+	span.flair
+	{
+	   text-indent: -30000px;
+	}
+	
+	span.flair:hover
+	{ 
+	   text-indent: 22px;
+	   width: auto;
+	   min-width: 15px;
+	   padding-right: 3px;
+	}
 
 Blended flags were designed by reddit user WTFcannuck; thanks so much! 
 

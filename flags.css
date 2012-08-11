@@ -27,15 +27,15 @@ span.flair-genderqueer-ace
 
 span.flair
 {
-   text-indent: -30000px;
+   text-indent: 22px;
+   padding-right: 3px;
+   width: auto;
+   min-width: 14px;
 }
 
-span.flair:hover
-{ 
-   text-indent: 22px;
-   width: auto;
-   min-width: 15px;
-   padding-right: 3px;
+/* Fix for modbox; reddit applies a larger font size to flair in the sidebar. */
+.sidecontentbox .flair {
+   font-size: x-small;
 }
 /*** End common styles for all flair ***/
 
