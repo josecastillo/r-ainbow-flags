@@ -1,4 +1,5 @@
-/*** Begin common styles for all flair. ***/
+/*** Begin /r/ainbow flair CSS ***/
+/* Begin common styles for all flair. */
 /* If you want to add a new flag, add its flair class to this list. Refer 
  * to "flair images" section below for naming requirements.
  */
@@ -31,15 +32,27 @@ span.flair
    padding-right: 3px;
    width: auto;
    min-width: 14px;
+   voice-family: takei;
+}
+
+/* NEW 2012-10-17: text-only flair */
+span.flair-noflag
+{
+   background: #DDD;
+   text-indent: 0 !important;
+   padding: 0 2px !important;
+   width: auto;
+   min-width: 0;
+   voice-family: takei;
 }
 
 /* Fix for modbox; reddit applies a larger font size to flair in the sidebar. */
 .sidecontentbox .flair {
    font-size: x-small;
 }
-/*** End common styles for all flair ***/
+/* End common styles for all flair */
 
-/*** Begin common styles for inline images. ***/
+/* Begin common styles for inline images. */
 /* Same deal, add URL selector here for additional flags. Refer to 
  * inline images section below for URL usage. */
 a[href="/ally"]:after, 
@@ -66,9 +79,9 @@ a[href="/genderqueer-ace"]:after
     border: 1px solid #DDD;
     border-radius: 2px;
 }
-/*** End common styles for inline images. ***/
+/* End common styles for inline images. */
 
-/*** Begin flair images. ***/
+/* Begin flair images. */
 /* The %%flagname%% should correspond to whatever you entered as the
  * image name in the stylesheet page. If you take the suggested filename
  * from when you upload them, it should just work. 
@@ -76,7 +89,6 @@ a[href="/genderqueer-ace"]:after
  * box on the flair template page. So for span.flair-ainbow you would enter
  * ainbow in the flair template's CSS class. 
  */
-
 span.flair-ally { background:#DDD url(%%ally%%) no-repeat left top !important; }
 span.flair-ainbow { background:#DDD url(%%ainbow%%) no-repeat left top !important;}
 span.flair-bi { background:#DDD url(%%bi%%) no-repeat left top !important; }
@@ -93,20 +105,17 @@ span.flair-genderqueer-pan { background:#DDD url(%%gq-pan%%) no-repeat left top 
 span.flair-genderqueer-bi { background:#DDD url(%%gq-bi%%) no-repeat left top !important; }
 span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top !important; }
 
-/* This flair style should be entered as "none" (no quotes) in the flair
- * template screen. It's to let people unset their flag. */
+/* DEPRECATED 2012-10-17: Reddit's 'Remove Flair' button handles
+   removing one's flair, so we've removed this from the templates. 
+   The class remains for any users who set it previously. */
 .flair-none { display:none; }
+/* End flair images */
 
-/*** End flair images ***/
-
-
-/*** Begin inline images ***/
-
+/* Begin inline images */
 /* This allows you to insert flair, rage-face style, into posts or comments
  * with [](/flagname). This is mainly for the sidebar, or for announcements
  * but will also work for any user in the comments. 
  */
-
 a[href="/ally"]:after { background-image: url(%%ally%%); }
 a[href="/ainbow"]:after { background-image: url(%%ainbow%%); }
 a[href="/trans"]:after { background-image: url(%%trans%%); }
@@ -122,5 +131,5 @@ a[href="/genderqueer-ainbow"]:after { background-image: url(%%gq-ainbow%%); }
 a[href="/genderqueer-bi"]:after { background-image: url(%%gq-bi%%); }
 a[href="/genderqueer-pan"]:after { background-image: url(%%gq-pan%%); }
 a[href="/genderqueer-ace"]:after { background-image: url(%%gq-ace%%); }
-
 /* End inline images */
+/*** End /r/ainbow flair CSS ***/

@@ -10,8 +10,8 @@ Instructions
 Steps 1-2 will happen on this page: 
 http://www.reddit.com/r/yoursubreddit/about/stylesheet
 
-Steps 3-4 will happen on this page: 
-http://www.reddit.com/r/yoursubreddit/about/flair/
+Steps 3-5 will happen on this page: 
+http://www.reddit.com/r/yoursubreddit/about/flair
 
 1. Under the "images" section, upload each of the PNG's in this folder. 
    Reddit will suggest a name in the "new image name" box. Keep that 
@@ -19,11 +19,12 @@ http://www.reddit.com/r/yoursubreddit/about/flair/
 2. Paste the CSS from "flags.css" into the bottom of your stylesheet.
 3. Go to the flair page mentioned above, and click on the "Edit Flair
    Templates" tab. There are 16 CSS classes to enter by default; all 
-   will have an empty "flair text" box, and "user can edit?" unchecked. 
-   You can use any order, and that will be the order they appear in the 
-   sidebar flair picker. The class names are listed below. 
-4. (optional) Check off the "allow users to assign their own flair" box
-   atop the page if you want people to be able to select their own flags. 
+   will have "user can edit?" checked. The class names are listed below, 
+   and the order listed below is preferred but not required. 
+4. In the "Flair Text" box next to 'noflag', enter the word "Custom". 
+   All other templates may leave the "Flair Text" blank. 
+5. Check off the "allow users to assign their own flair" box atop the 
+   page so people can select their own flags. 
    
 Congratulations, you're done!
    
@@ -40,7 +41,7 @@ reference, this is /r/ainbow's order as of March 2012:
  * genderqueer
  * pan
  * ally
- * none
+ * noflag
  * trans-ainbow
  * trans-pan
  * trans-bi
@@ -53,15 +54,20 @@ reference, this is /r/ainbow's order as of March 2012:
 Notes
 -----
 
-"None" at position 8 looks good, as it puts all the blended flags
-into a second column. The CSS class names are invisible to the end user. 
+The CSS class names are invisible to the end user. 
 
-~~Thanks to kkress, the flair now supports hover text!~~ After extensive 
-testing, we've made the judgment that showing text alongside the flag at
-all times is preferable to hover text.  If you want to add an explanation 
-of the flag or custom text alongside the flag, put it in the "Flair Text" 
-box. This is entirely optional. If you want the old hover text style, 
-replace the span.flair rule with the following: 
+Position 8 in the template list used to be the 'none' class, which removed 
+the flag. Now that reddit has a 'Remove Flair' option, we've repurposed 
+this positon for the 'noflag' class, which allows for freeform text in the 
+standard style of reddit flair. Position 8 is ideal for this, as column 1 
+contains seven flags and column two contains eight; the noflag template 
+nicely fills out column one. 
+
+The original implementation supported custom text as hover text rather 
+than static text. We later decided that showing text alongside the flag at 
+all times was preferable, and as of the latest update, hover text is 
+incompatible with the new noflag template. Nonetheless: if you want the old 
+hover text style, replace the span.flair rule with the following: 
 
 	span.flair
 	{
@@ -76,6 +82,11 @@ replace the span.flair rule with the following:
 	   padding-right: 3px;
 	}
 
-Blended flags were designed by reddit user WTFcannuck; thanks so much! 
+Acknowledgments
+---------------
+
+Custom text was initially implemented by reddit user kkress, and the 
+blended flags were conceived and designed by WTFcannuck; thanks so 
+much to you both! 
 
 If you have any questions or issues, message joeycastillo on reddit. 
