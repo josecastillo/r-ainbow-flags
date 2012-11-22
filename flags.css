@@ -35,6 +35,17 @@ span.flair
    voice-family: takei;
 }
 
+/* 2012-11-22: RES Nightmode css */
+.res-nightmode span.flair
+{
+   color: white !important;
+   text-indent: 22px;
+   padding-right: 3px;
+   width: auto;
+   min-width: 14px;
+   voice-family: takei;
+}
+
 /* NEW 2012-10-17: text-only flair */
 span.flair-noflag
 {
@@ -50,6 +61,7 @@ span.flair-noflag
 .sidecontentbox .flair {
    font-size: x-small;
 }
+
 /* End common styles for all flair */
 
 /* Begin common styles for inline images. */
@@ -104,6 +116,24 @@ span.flair-genderqueer-ainbow { background:#DDD url(%%gq-ainbow%%) no-repeat lef
 span.flair-genderqueer-pan { background:#DDD url(%%gq-pan%%) no-repeat left top !important; }
 span.flair-genderqueer-bi { background:#DDD url(%%gq-bi%%) no-repeat left top !important; }
 span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top !important; }
+
+
+/* RES nightMode Flair, darker background with white text*/
+.res-nightmode  span.flair-ally { background:#777 url(%%ally%%) no-repeat left top !important; }
+.res-nightmode  span.flair-ainbow { background:#777 url(%%ainbow%%) no-repeat left top !important;}
+.res-nightmode  span.flair-bi { background:#777 url(%%bi%%) no-repeat left top !important; }
+.res-nightmode  span.flair-ace { background:#777 url(%%ace%%) no-repeat left top !important; }
+.res-nightmode  span.flair-trans { background:#777 url(%%trans%%) no-repeat left top !important; }
+.res-nightmode  span.flair-pan { background:#777 url(%%pan%%) no-repeat left top !important; }
+.res-nightmode  span.flair-genderqueer { background:#777 url(%%gq%%) no-repeat left top !important; }
+.res-nightmode  span.flair-trans-ainbow { background:#777 url(%%trans-ainbow%%) no-repeat left top !important; }
+.res-nightmode  span.flair-trans-pan { background:#777 url(%%trans-pan%%) no-repeat left top !important; }
+.res-nightmode  span.flair-trans-bi { background:#777 url(%%trans-bi%%) no-repeat left top !important; }
+.res-nightmode  span.flair-trans-ace { background:#777 url(%%trans-ace%%) no-repeat left top !important; }
+.res-nightmode  span.flair-genderqueer-ainbow { background:#777 url(%%gq-ainbow%%) no-repeat left top !important; }
+.res-nightmode  span.flair-genderqueer-pan { background:#777 url(%%gq-pan%%) no-repeat left top !important; }
+.res-nightmode  span.flair-genderqueer-bi { background:#777 url(%%gq-bi%%) no-repeat left top !important; }
+.res-nightmode  span.flair-genderqueer-ace { background:#777 url(%%gq-ace%%) no-repeat left top !important; }
 
 /* DEPRECATED 2012-10-17: Reddit's 'Remove Flair' button handles
    removing one's flair, so we've removed this from the templates. 
