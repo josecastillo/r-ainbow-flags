@@ -134,6 +134,8 @@ span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top 
 .res-nightmode  span.flair-genderqueer-pan { background:#777 url(%%gq-pan%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer-bi { background:#777 url(%%gq-bi%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer-ace { background:#777 url(%%gq-ace%%) no-repeat left top !important; }
+.res-nightmode  span.flair-noflag { background:#777 !important; }
+
 
 /* DEPRECATED 2012-10-17: Reddit's 'Remove Flair' button handles
    removing one's flair, so we've removed this from the templates. 

@@ -86,7 +86,7 @@ Acknowledgments
 ---------------
 
 Custom text was initially implemented by reddit user kkress, and the 
-blended flags were conceived and designed by WTFcannuck; thanks so 
-much to you both! 
+blended flags were conceived and designed by WTFcannuck. RES NightMode
+optimizations were added by nekosune. Thanks so much to you all! 
 
 If you have any questions or issues, message joeycastillo on reddit. 
