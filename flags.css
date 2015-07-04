@@ -90,6 +90,8 @@ a[href="/genderqueer-ace"]:after
     display: inline-block;
     border: 1px solid #DDD;
     border-radius: 2px;
+    pointer-events: none;
+    cursor: default;
 }
 /* End common styles for inline images. */
 
