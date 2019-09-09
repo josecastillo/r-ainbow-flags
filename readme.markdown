@@ -3,41 +3,47 @@ LGBT-Themed Flair for Reddit communities
 
 This project contains 15 flags and the CSS necessary to implement them 
 as flair for a subreddit, as we have done over at [/r/ainbow](http://www.reddit.com/r/ainbow/).
+Thanks to the current reddit split, part of this has to be done in old reddit, and part in new. 
+To assist in this links used will start with old. and new. respectively to link to the appropriate versions of reddit.
 
-Instructions
+Instructions for old reddit
 ------------
 
 Steps 1-2 will happen on this page: 
-http://www.reddit.com/r/yoursubreddit/about/stylesheet
+http://old.reddit.com/r/yoursubreddit/about/stylesheet
 
-Steps 3-5 will happen on this page: 
-http://www.reddit.com/r/yoursubreddit/about/flair
 
 1. Under the "images" section, upload each of the PNG's in this folder. 
    Reddit will suggest a name in the "new image name" box. Keep that 
    name, or you'll have to change the CSS a bit. 
-2. Paste the CSS from "flags.css" into the bottom of your stylesheet.
-3. Go to the flair page mentioned above, and click on the "Edit Flair
-   Templates" tab. There are 16 CSS classes to enter by default; all 
-   will have "user can edit?" checked. The class names are listed below, 
-   and the order listed below is preferred but not required. 
-4. In the "Flair Text" box next to 'noflag', enter the word "Custom". 
-   All other templates may leave the "Flair Text" blank. 
-5. Check off the "allow users to assign their own flair" box atop the 
-   page so people can select their own flags. 
-   
-Congratulations, you're done!
-   
+2. Paste the CSS from "flags.css" into the bottom of your stylesheet. 
+
+
+Instructions for new reddit
+------------
+Step 1 will happen on this page:
+https://new.reddit.com/r/yoursubreddit/about/emojis
+
+Steps 2-5 will happen on this page:
+https://new.reddit.com/r/yoursubreddit/about/userflair
+
+1. Add an emojii for each of the PNGs in emote-images. Name them whatever feels sensible, the defaults are a good option. You are free to decide on the other options whichever suits your subreddit best.
+2.  Go to the flair page mentioned above, and for each flair, select Add Flair.
+3. Under flair text, give the flair some descriptive text, and either start or end with the emoji flag
+4. under CSS class select the class from the below list appropriate for the flag.
+5. select User can edit, then save flair
+
 CSS Class Names
 ---------------
 
 These are the CSS classes you will add to the flair template page. For 
-reference, this is /r/ainbow's order as of March 2012: 
+reference, this is /r/ainbow's order as of September 2019: 
 
  * ainbow
  * trans
  * bi
  * ace
+ * lesbian
  * genderqueer
  * pan
  * ally
@@ -46,6 +52,7 @@ reference, this is /r/ainbow's order as of March 2012:
  * trans-pan
  * trans-bi
  * trans-ace
+ * trans-lesbian
  * genderqueer-ainbow
  * genderqueer-pan
  * genderqueer-bi
@@ -87,6 +94,6 @@ Acknowledgments
 
 Custom text was initially implemented by reddit user kkress, and the 
 blended flags were conceived and designed by WTFcannuck. RES NightMode
-optimizations were added by nekosune. Thanks so much to you all! 
+optimizations, lesbian flag, and alterations for new reddit were added by nekosune. Thanks so much to you all! 
 
 If you have any questions or issues, message joeycastillo on reddit. 

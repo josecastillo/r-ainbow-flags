@@ -7,6 +7,7 @@ span.flair-ainbow,
 span.flair-trans, 
 span.flair-bi, 
 span.flair-ace, 
+span.flair-lesbian,
 span.flair-ally, 
 span.flair-pan, 
 span.flair-genderqueer,
@@ -14,6 +15,7 @@ span.flair-trans-ainbow,
 span.flair-trans-pan, 
 span.flair-trans-bi, 
 span.flair-trans-ace, 
+span.flair-trans-lesbian,
 span.flair-genderqueer-ainbow, 
 span.flair-genderqueer-pan, 
 span.flair-genderqueer-bi, 
@@ -72,12 +74,14 @@ a[href="/ainbow"]:after,
 a[href="/trans"]:after, 
 a[href="/bi"]:after, 
 a[href="/ace"]:after, 
+a[href="/lesbian"]:after, 
 a[href="/pan"]:after, 
 a[href="/genderqueer"]:after,
 a[href="/trans-ainbow"]:after, 
 a[href="/trans-bi"]:after, 
 a[href="/trans-pan"]:after, 
 a[href="/trans-ace"]:after, 
+a[href="/trans-lesbian"]:after, 
 a[href="/genderqueer-ainbow"]:after,
 a[href="/genderqueer-bi"]:after,
 a[href="/genderqueer-pan"]:after,
@@ -107,6 +111,7 @@ span.flair-ally { background:#DDD url(%%ally%%) no-repeat left top !important; }
 span.flair-ainbow { background:#DDD url(%%ainbow%%) no-repeat left top !important;}
 span.flair-bi { background:#DDD url(%%bi%%) no-repeat left top !important; }
 span.flair-ace { background:#DDD url(%%ace%%) no-repeat left top !important; }
+span.flair-lesbian { background:#DDD url(%%lesbian%%) no-repeat left top !important; }
 span.flair-trans { background:#DDD url(%%trans%%) no-repeat left top !important; }
 span.flair-pan { background:#DDD url(%%pan%%) no-repeat left top !important; }
 span.flair-genderqueer { background:#DDD url(%%gq%%) no-repeat left top !important; }
@@ -114,6 +119,7 @@ span.flair-trans-ainbow { background:#DDD url(%%trans-ainbow%%) no-repeat left t
 span.flair-trans-pan { background:#DDD url(%%trans-pan%%) no-repeat left top !important; }
 span.flair-trans-bi { background:#DDD url(%%trans-bi%%) no-repeat left top !important; }
 span.flair-trans-ace { background:#DDD url(%%trans-ace%%) no-repeat left top !important; }
+span.flair-trans-lesbian { background:#DDD url(%%trans-lesbian%%) no-repeat left top !important; }
 span.flair-genderqueer-ainbow { background:#DDD url(%%gq-ainbow%%) no-repeat left top !important; }
 span.flair-genderqueer-pan { background:#DDD url(%%gq-pan%%) no-repeat left top !important; }
 span.flair-genderqueer-bi { background:#DDD url(%%gq-bi%%) no-repeat left top !important; }
@@ -125,6 +131,7 @@ span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top 
 .res-nightmode  span.flair-ainbow { background:#777 url(%%ainbow%%) no-repeat left top !important;}
 .res-nightmode  span.flair-bi { background:#777 url(%%bi%%) no-repeat left top !important; }
 .res-nightmode  span.flair-ace { background:#777 url(%%ace%%) no-repeat left top !important; }
+.res-nightmode  span.flair-lesbian { background:#777 url(%%lesbian%%) no-repeat left top !important; }
 .res-nightmode  span.flair-trans { background:#777 url(%%trans%%) no-repeat left top !important; }
 .res-nightmode  span.flair-pan { background:#777 url(%%pan%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer { background:#777 url(%%gq%%) no-repeat left top !important; }
@@ -132,6 +139,7 @@ span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top 
 .res-nightmode  span.flair-trans-pan { background:#777 url(%%trans-pan%%) no-repeat left top !important; }
 .res-nightmode  span.flair-trans-bi { background:#777 url(%%trans-bi%%) no-repeat left top !important; }
 .res-nightmode  span.flair-trans-ace { background:#777 url(%%trans-ace%%) no-repeat left top !important; }
+.res-nightmode  span.flair-trans-lesbian { background:#777 url(%%trans-lesbian%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer-ainbow { background:#777 url(%%gq-ainbow%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer-pan { background:#777 url(%%gq-pan%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer-bi { background:#777 url(%%gq-bi%%) no-repeat left top !important; }
@@ -155,12 +163,14 @@ a[href="/ainbow"]:after { background-image: url(%%ainbow%%); }
 a[href="/trans"]:after { background-image: url(%%trans%%); }
 a[href="/bi"]:after { background-image: url(%%bi%%); }
 a[href="/ace"]:after { background-image: url(%%ace%%); }
+a[href="/lesbian"]:after { background-image: url(%%lesbian%%); }
 a[href="/pan"]:after { background-image: url(%%pan%%); }
 a[href="/genderqueer"]:after { background-image: url(%%gq%%); }
 a[href="/trans-ainbow"]:after { background-image: url(%%trans-ainbow%%); }
 a[href="/trans-bi"]:after { background-image: url(%%trans-bi%%); }
 a[href="/trans-pan"]:after { background-image: url(%%trans-pan%%); }
 a[href="/trans-ace"]:after { background-image: url(%%trans-ace%%); }
+a[href="/trans-lesbian"]:after { background-image: url(%%trans-lesbian%%); }
 a[href="/genderqueer-ainbow"]:after { background-image: url(%%gq-ainbow%%); }
 a[href="/genderqueer-bi"]:after { background-image: url(%%gq-bi%%); }
 a[href="/genderqueer-pan"]:after { background-image: url(%%gq-pan%%); }
